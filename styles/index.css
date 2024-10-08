@@ -1,0 +1,19 @@
+:root{
+    --cor1 : #EB9001;
+    --cor2 : #2825BE;
+    --cor3 : #CF4C38;
+    --cor4 : #E8A6A5;
+}
+
+.navbar a:hover{
+    color: black;
+}
+#bannerCircular{
+    width: 300px;
+}
+#secao1{
+    height: 400px;
+}
+#banner2{
+    width: 300px;
+}

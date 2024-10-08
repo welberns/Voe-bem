@@ -1,0 +1,33 @@
+:root{
+    --cor1 : #EB9001;
+    --cor2 : #2825BE;
+    --cor3 : #CF4C38;
+    --cor4 : #E8A6A5;
+}
+section, div{
+    display: flex;
+}
+.navbar{
+    background-color: var(--cor1);
+}
+#navItem{
+    list-style: none;
+    gap: 10px;
+    margin-right: 20px;
+
+}
+.navbar a{
+    text-decoration: none;
+    transition: all .2s;
+    color: var(--cor2);
+}
+.navbar img{
+    width: 50px;
+}
+footer{
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+ul{
+    list-style: none;
+}
