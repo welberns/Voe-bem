@@ -31,3 +31,6 @@ footer{
 ul{
     list-style: none;
 }
+.carousel-inner{
+    height: 35em;
+}
