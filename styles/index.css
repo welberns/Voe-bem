@@ -1,6 +1,7 @@
 :root{
     --cor1 : #EB9001;
     --cor2 : #2825BE;
+    --cor2fade : #2825be70;
     --cor3 : #CF4C38;
     --cor4 : #E8A6A5;
 }
@@ -8,12 +9,62 @@
 .navbar a:hover{
     color: black;
 }
+.sec1 p{
+    width: 500px;
+    text-align: justify;
+}
 #bannerCircular{
-    width: 300px;
+    width: 350px;
+}
+#bannerCircular img{
+    border-radius: 50%;
 }
 #secao1{
     height: 400px;
 }
 #banner2{
+    width: 500px;
+}
+#banner2 img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 30px;
+
+}
+#secao2{
+    height: 400px;
+    background-color: var(--cor2fade);
+    box-shadow: 0 0 5px var(--cor2);
+}
+
+.drop{
+    background-color: var(--cor2fade);
+    box-shadow: 0 0 10px var(--cor2);
+    border: none;
     width: 300px;
+}
+#painelForm{
+    height: 500px;
+}
+
+#secao4{
+    background-color: var(--cor2fade);
+    box-shadow: 0 0 10px var(--cor2);
+    margin: 20px 0;
+}
+.sec4img{
+    gap: 20px;
+}
+#btnH{
+    position: fixed;
+    bottom: 7%;
+    right: 2%;
+}
+#btnH img,#btnH2 img{
+    width: 30px;
+}
+#btnH2{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
 }

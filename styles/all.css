@@ -1,6 +1,10 @@
+*{
+    font-family: Roboto;
+}
 :root{
     --cor1 : #EB9001;
     --cor2 : #2825BE;
+    --cor2fade : #2825be70;
     --cor3 : #CF4C38;
     --cor4 : #E8A6A5;
 }
@@ -9,6 +13,11 @@ section, div{
 }
 .navbar{
     background-color: var(--cor1);
+    box-shadow: 0 0 5px grey;
+}
+.navbar a:hover{
+    color: black;
+    text-decoration: underline;
 }
 #navItem{
     list-style: none;
@@ -27,10 +36,31 @@ section, div{
 footer{
     background-color: var(--cor2);
     color: var(--cor4);
+    box-shadow: 0 0 10px var(--cor2);
 }
 ul{
     list-style: none;
 }
 .carousel-inner{
     height: 35em;
+}
+.imgA{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#banner2{
+    width: 700px;
+}
+#banner2 img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px ;
+}
+#banner3{
+    width: 700px;
+}
+#banner3 img{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px ;
 }

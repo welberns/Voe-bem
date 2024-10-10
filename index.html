@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Voa Bem - Home</title>
     <link rel="shortcut icon" href="images/palmeiras.png" type="image/x-icon" />
     <!-- bootstrap -->
     <link rel="stylesheet" href="styles/bootstrap.css" />
@@ -11,21 +11,24 @@
     <link rel="stylesheet" href="styles/all.css" />
     <link rel="stylesheet" href="styles/index.css" />
     <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <!-- navbar -->
-      <nav class="navbar">
+      <nav id="nav" class="navbar">
         <div>
           <img src="#" alt="" />
           <p class="navbar-brand"><a href="#">NOME</a></p>
         </div>
         <ul id="navItem" class="d-flex">
           <li>
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#">Sobre a empresa</a>
+            <a href="pages/sobreEmpresa.html">Sobre a empresa</a>
           </li>
           <li>
             <a href="pages/blog.html">Blog</a>
@@ -43,13 +46,23 @@
         id="secao1"
         class="container align-items-center justify-content-between"
       >
-        <div class="flex-column">
+        <div class="sec1 flex-column">
           <h2>Voe Bem</h2>
-          <h3>Viagem sustentável</h3>
-          <h4>Viage conosco, sem prejudicar o meio ambiente!</h4>
+          <h3>Conheça a natureza</h3>
+          <p>
+            Por que Escolher Viagens Sustentáveis? Viajar de forma sustentável
+            não é apenas uma tendência, é uma necessidade. Ao escolher opções de
+            turismo responsável, você contribui para a preservação dos
+            ecossistemas, apoia economias locais e vive experiências mais
+            autênticas e enriquecedoras.
+          </p>
         </div>
         <div id="bannerCircular">
-          <img class="w-100" src="images/bannerCircular.jpg" alt="" />
+          <img
+            class="w-100"
+            src="images/bannerCircular.jpg"
+            alt="imagem de uma praia"
+          />
         </div>
       </section>
       <!-- seção 2 -->
@@ -74,7 +87,7 @@
         </div>
       </section>
       <!-- seção 3 -->
-      <section class="container">
+      <section id="secao3" class="container mt-4 justify-content-between">
         <!-- painel lateral -->
         <div id="painelLateral" class="flex-column">
           <div class="card mb-3" style="max-width: 540px">
@@ -89,19 +102,21 @@
               <div class="col-md-8">
                 <div class="card-body flex-xl-column">
                   <h4 class="card-title">Bariloche</h4>
-                  <h5 class="card-text">Conheça os nossos pacotes</h5>
+                  <h5 class="card-text">
+                    Conheça uma das belas cidades argentinas
+                  </h5>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    A cidade é um ponto de partida popular para explorar
+                    o Parque Nacional Nahuel Huapi e outras atrações naturais da
+                    região, como o Cerro Catedral e o Circuito Chico.
                   </p>
                   <p class="card-text">
                     <small class="text-body-secondary"
                       ><img
                         style="max-width: 50px; border-radius: 100px"
-                        src="images/original/time/sergio.jpg"
+                        src="images/original/time/sergio2.jpg"
                         alt=""
-                      />Post por Sérgio</small
+                      /> Post por Sérgio</small
                     >
                   </p>
                 </div>
@@ -119,20 +134,19 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body flex-xl-column">
-                  <h4 class="card-title">Viagem sustentável</h4>
-                  <h5 class="card-text">não sei ainda</h5>
+                  <h4 class="card-title">Destinos Ecológicos</h4>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Explore lugares que priorizam a conservação ambiental e
+                    oferecem experiências únicas em meio à natureza.
                   </p>
                   <p class="card-text">
                     <small class="text-body-secondary"
                       ><img
                         style="max-width: 50px; border-radius: 100px"
-                        src="images/cortado/aliceRosto.png"
+                        src="images/original/time/alice2.jpg"
                         alt=""
-                      />Post por Alice</small
+                      />
+                      Post por Alice</small
                     >
                   </p>
                 </div>
@@ -150,20 +164,19 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body flex-xl-column">
-                  <h4 class="card-title">Viagem sustentável</h4>
-                  <h5 class="card-text">não sei ainda</h5>
+                  <h4 class="card-title">Hospedagens Sustentáveis</h4>
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Encontre acomodações que adotam práticas ecológicas, desde
+                    hotéis boutique até eco-lodges.
                   </p>
                   <p class="card-text">
                     <small class="text-body-secondary"
                       ><img
                         style="max-width: 50px; border-radius: 100px"
-                        src="images/original/time/elizabeth.jpg"
+                        src="images/original/time/elizabeth2.jpg"
                         alt=""
-                      />Post por Elizabeth</small
+                      />
+                      Post por Elizabeth</small
                     >
                   </p>
                 </div>
@@ -171,49 +184,140 @@
             </div>
           </div>
         </div>
-        <!-- painel menu dropdown - fazer funcionar -->
-        <div id="painelForm" class="flex-column">
-          <form action="">
+        <!-- painel menu dropdown-->
+        <div id="painelForm" class="flex-column justify-content-around p-5">
             <input placeholder="Encontre algo" type="text" />
-          </form>
           <div class="dropdown-center">
             <button
-              class="btn btn-secondary dropdown-toggle"
+              class="drop btn btn-secondary dropdown-toggle"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Centered dropdown
+              Posts recentes
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Action two</a></li>
-              <li><a class="dropdown-item" href="#">Action three</a></li>
+              <li><a class="dropdown-item" href="#">Post por Sérgio</a></li>
+              <li><a class="dropdown-item fw-bold" href="pages/postana.html">Post por Ana (funciona)</a></li>
+              <li><a class="dropdown-item" href="#">Post por Elizabeth</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown-center">
+            <button
+              class="drop btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Temas do blog
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Tema 1</a></li>
+              <li><a class="dropdown-item" href="#">Tema 2</a></li>
+              <li><a class="dropdown-item" href="#">Tema 3</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown-center">
+            <button
+              class="drop btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Galeria
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Galeria 1</a></li>
+              <li><a class="dropdown-item" href="#">Galeria 2</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center">
+            <button
+              class="drop btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Categorias
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Categoria 1</a></li>
+              <li><a class="dropdown-item" href="#">Categoria 2</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown-center">
+            <button
+              class="drop btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Blog do Sérgio
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">post 1</a></li>
+              <li><a class="dropdown-item" href="#">post 2</a></li>
             </ul>
           </div>
         </div>
       </section>
       <!-- seção 4 -->
-       <section class="flex-column align-items-center">
-          <h2>MONTE UM NETWORKING DE VIAGEM!</h2>
-          <div>
-            <div class="flex-column">
-              <h3>conheça novas pessoas e compartilhe experiências!</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam necessitatibus minima fugit libero, dolorem quaerat provident nulla delectus iste, corporis accusantium sapiente, possimus maiores maxime qui nesciunt ipsum molestias. Excepturi.</p>
-            </div>
-            <div>
-              <ul class="d-flex">
-                <li><img style="max-width: 100px" src="images/Bariloche.jpg" alt=""></li>
-                <li><img style="max-width: 100px" src="images/Bariloche.jpg" alt=""></li>
-                <li><img style="max-width: 100px" src="images/Bariloche.jpg" alt=""></li>
-              </ul>
-            </div>
+      <section id="secao4" class="flex-column align-items-center">
+        <h2>MONTE UM NETWORKING DE VIAGEM!</h2>
+        <div>
+          <div class="container flex-column">
+            <h3>conheça novas pessoas e compartilhe experiências!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              necessitatibus minima fugit libero, dolorem quaerat provident
+              nulla delectus iste, corporis accusantium sapiente, possimus
+              maiores maxime qui nesciunt ipsum molestias. Excepturi.
+            </p>
           </div>
-        
-       </section>
+          <div>
+            <ul class="sec4img d-flex">
+              <li>
+                <img
+                  style="max-width: 100px"
+                  src="images/Bariloche.jpg"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  style="max-width: 100px"
+                  src="images/Bariloche.jpg"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  style="max-width: 100px"
+                  src="images/Bariloche.jpg"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="d-flex flex-column align-items-center ">
+    <div id="btnH">
+      <a href="#nav">
+          <img src="images/arrow-up-square.svg" alt="">
+      </a>
+  </div>
+  <div data-bs-theme="light" id="btnH2">
+      <a href="#end">
+          <img src="images/arrow-down-square.svg" alt="">
+      </a>
+  </div>
+
+    <footer id="end" class="end d-flex flex-column align-items-center">
       <h5>Contatos</h5>
       <p>Telefone: (99) 9 9999 - 9999</p>
       <p>E-mail: voebem@email.com</p>
@@ -222,6 +326,7 @@
 
     <!-- bootstrap -->
     <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/bootstrap.bundle.js"></script>
     <!-- jquery -->
     <script src="scripts/jquery-3.7.1.min.js"></script>
     <!-- pessoal -->

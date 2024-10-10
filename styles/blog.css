@@ -1,0 +1,16 @@
+:root{
+    --cor1 : #EB9001;
+    --cor2 : #2825BE;
+    --cor2fade : #2825be70;
+    --cor3 : #CF4C38;
+    --cor4 : #E8A6A5;
+}
+.imgA{
+    background-size: cover;
+    background-position: 50% 70%;
+    height: 400px;
+}
+#sec2blog{
+    background-color: var(--cor2fade);
+    box-shadow: 0 0 10px var(--cor2);
+}
