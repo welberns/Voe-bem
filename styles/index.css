@@ -1,13 +1,16 @@
 :root{
-    --cor1 : #EB9001;
-    --cor2 : #2825BE;
-    --cor2fade : #2825be70;
-    --cor3 : #CF4C38;
-    --cor4 : #E8A6A5;
+    --cor1 : #0B5431;
+    --cor2 : #4C710E;
+    --cor2fade : #71972C;
+    --cor3 : #1B2B00;
+    --cor4 : #CEC75F;
 }
 
 .navbar a:hover{
     color: black;
+}
+#nav p{
+    color: var(--cor4);
 }
 .sec1 p{
     width: 500px;

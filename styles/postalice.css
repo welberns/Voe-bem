@@ -1,0 +1,24 @@
+:root{
+    --cor1 : #0B5431;
+    --cor2 : #4C710E;
+    --cor2fade : #71972c;
+    --cor3 : #1B2B00;
+    --cor4 : #CEC75F;
+}
+.tags{
+    background-color: var(--cor3);
+    color: #CEC75F;
+    width: 100px;
+    height: 25px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#bgalice{
+    background-position: 50% 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
