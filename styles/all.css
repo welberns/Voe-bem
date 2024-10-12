@@ -19,6 +19,10 @@
     --main : rgb(51, 51, 51);
     --letter : rgb(255, 255, 255);
 }
+.card1, .card-text{
+    background-color: var(--main);
+    color: var(--letter);
+}
 section, div{
     display: flex;
 }
