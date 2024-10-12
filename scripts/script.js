@@ -1,16 +1,22 @@
-let darkmode =localstorage.getItem('darkmode')
-const trocaTema = document.getElement.ById('trocaTema') 
+let darkmode = localStorage.getItem('darkmode')
+const themeSwitch = document.getElementById('trocaTema') 
 
 const enableDarkmode = () => {
 document.body.classList.add('darkmode') 
-localstorage.setItem('darkmode', 'active')
+localStorage.setItem('darkmode', 'active')
 } 
 
 const disableDarkmode = () => {
 document.body.classList.remove('darkmode') 
-localstorage.setItem('darkmode', null) 
+localStorage.setItem('darkmode', null) 
 } 
 
-trocaTema.addEventListener('click',() => {
+
+if(darkmode === "active") enableDarkmode()
+
+themeSwitch.addEventListener('click', () => {
+    darkmode = localStorage.getItem('darkmode')
 darkmode !== "active" ? enableDarkmode() : disableDarkmode() 
 }) 
+
+
