@@ -87,3 +87,13 @@ footer{
     color: var(--cor4);
     box-shadow: 0 0 10px var(--cor2);
 }
+
+#trocaTema svg:last-child{
+			display: none;
+} 
+.darkmode #trocaTema:first-child{
+			display : none;
+}
+.darkmode #trocaTema:last-child{
+			display: block;
+} 
