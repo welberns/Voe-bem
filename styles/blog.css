@@ -1,9 +1,20 @@
 :root{
     --cor1 : #0B5431;
     --cor2 : #4C710E;
-    --cor2fade : #71972C;
+    --cor2fade : #71972c;
     --cor3 : #1B2B00;
     --cor4 : #CEC75F;
+    --main : white;
+    --letter : black;
+}
+.darkmode{
+    --cor1 : #0B5431;
+    --cor2 : #4C710E;
+    --cor2fade : #303f14;
+    --cor3 : #1B2B00;
+    --cor4 : #CEC75F;
+    --main : rgb(51, 51, 51);
+    --letter : rgb(255, 255, 255);
 }
 .carousel-inner{
     height: 35em;
@@ -16,6 +27,12 @@
 }
 #sec2blog{
     background-color: var(--cor2fade);
-    box-shadow: 0 0 10px var(--cor2);
+    box-shadow: 0 0 10px var(--cor3);
+}
+.card-body{
+    background-color: var(--main);
+}
+h1, h2, h3, h4, h5, p{
+    color: var(--letter);
 }
 

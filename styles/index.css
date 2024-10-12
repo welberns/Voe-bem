@@ -6,9 +6,7 @@
     --cor4 : #CEC75F;
 }
 
-.navbar a:hover{
-    color: black;
-}
+
 #nav p{
     color: var(--cor4);
 }
@@ -37,12 +35,12 @@
 #secao2{
     height: 400px;
     background-color: var(--cor2fade);
-    box-shadow: 0 0 5px var(--cor2);
+    box-shadow: 0 0 5px var(--cor3);
 }
 
 .drop{
     background-color: var(--cor2fade);
-    box-shadow: 0 0 10px var(--cor2);
+    box-shadow: 0 0 10px var(--cor3);
     border: none;
     width: 300px;
 }
@@ -52,7 +50,7 @@
 
 #secao4{
     background-color: var(--cor2fade);
-    box-shadow: 0 0 10px var(--cor2);
+    box-shadow: 0 0 10px var(--cor3);
     margin: 20px 0;
 }
 .sec4img{

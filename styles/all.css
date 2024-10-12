@@ -32,7 +32,7 @@ body{
 /* navbar */
 .navbar{
     background-color: var(--cor1);
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 5px var(--cor3);
 }
 .navbar a:hover{
     color: black;
@@ -85,7 +85,7 @@ ul{
 footer{
     background-color: var(--cor1);
     color: var(--cor4);
-    box-shadow: 0 0 10px var(--cor2);
+    box-shadow: 0 0 10px var(--cor3);
 }
 #trocaTema{
     height: 30px;
