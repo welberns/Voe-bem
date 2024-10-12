@@ -87,3 +87,14 @@ footer{
     color: var(--cor4);
     box-shadow: 0 0 10px var(--cor2);
 }
+#trocaTema{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--cor3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
