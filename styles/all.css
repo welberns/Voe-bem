@@ -66,27 +66,7 @@ h1, h2, h3, h4, h5, p{
 ul{
     list-style: none;
 }
-/* banner img */
-#banner2{
-    width: 700px;
-}
-#banner2 img{
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px ;
-}
-#banner3{
-    width: 700px;
-}
-#banner3 img{
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px ;
-}
-/* footer */
-footer{
-    background-color: var(--cor1);
-    color: var(--cor4);
-    box-shadow: 0 0 10px var(--cor3);
-}
+/* troca tema */
 #trocaTema{
     height: 30px;
     width: 30px;
@@ -109,4 +89,25 @@ footer{
 }
 .darkmode #trocaTema svg:last-child{
     display: block;
+}
+/* banner img */
+#banner2{
+    width: 700px;
+}
+#banner2 img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px ;
+}
+#banner3{
+    width: 700px;
+}
+#banner3 img{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px ;
+}
+/* footer */
+footer{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    box-shadow: 0 0 10px var(--cor3);
 }

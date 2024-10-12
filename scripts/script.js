@@ -1,3 +1,4 @@
+// script para troca de tema, que armazena a escolha em todas as páginas do site
 let darkmode = localStorage.getItem('darkmode')
 const themeSwitch = document.getElementById('trocaTema') 
 
