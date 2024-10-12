@@ -233,7 +233,7 @@
               Galeria
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Galeria 1</a></li>
+              <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Galeria 1 - funciona </a></li>
               <li><a class="dropdown-item" href="#">Galeria 2</a></li>
             </ul>
           </div>
@@ -327,7 +327,34 @@
       <p>E-mail: voebem@email.com</p>
       Todos os direitos reservados a @VoeBem 2024
     </footer>
-
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img style="max-width: 470px;" src="images/original/teo-d-4OnpqI3Y6hs-unsplash.jpg" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body flex-column">
+            <h1>Fotos de Belas Flores!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum doloremque beatae nostrum ab, soluta nihil eaque? Quos consequuntur, assumenda aut porro dolores impedit autem earum! Consectetur natus quaerat sunt ipsa.</p>
+            <p class="card-text">
+              <small class="text-body-secondary"
+                ><img
+                  style="max-width: 50px; border-radius: 100px"
+                  src="images/original/time/alice2.jpg"
+                  alt=""
+                />
+                Post por Alice</small
+              >
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- bootstrap -->
     <script src="scripts/bootstrap.js"></script>
     <script src="scripts/bootstrap.bundle.js"></script>
