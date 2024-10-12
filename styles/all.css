@@ -96,5 +96,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+
+}
+#trocaTema svg{
+    fill: var(--cor2);
+}
+#trocaTema svg:last-child{
+    display: none;
+}
+.darkmode #trocaTema svg:first-child{
+    display: none;
+}
+.darkmode #trocaTema svg:last-child{
+    display: block;
 }
