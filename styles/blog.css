@@ -5,7 +5,11 @@
     --cor3 : #1B2B00;
     --cor4 : #CEC75F;
 }
+.carousel-inner{
+    height: 35em;
+}
 .imgA{
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 70%;
     height: 400px;
@@ -14,3 +18,4 @@
     background-color: var(--cor2fade);
     box-shadow: 0 0 10px var(--cor2);
 }
+
